@@ -36,7 +36,7 @@ int main(){
       int m; cin>>m;
       while(m--){
          int y,dir,wt;cin>>y>>dir>>wt;
-         graph[i].push_back(y);
+         if(dir==1)graph[i].push_back(y);
       }
    }
 
